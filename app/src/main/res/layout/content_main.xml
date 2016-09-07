@@ -15,20 +15,9 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!" />
-       <Button
-        android:id="@+id/context_menu"
-             android:layout_width="wrap_content"
-           android:layout_height="wrap_content"
-           />
+        android:text="Hello World!"
+        android:id="@+id/textview"
+        android:onClick="showPopup"/>
 
-        <Button
-             android:id="@+id/pop_menu"
-             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-             />
-        <Button
-            android:id="@+id/option_menu"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"/>
+
 </RelativeLayout>
